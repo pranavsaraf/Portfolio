@@ -1,15 +1,15 @@
 import { Container } from "./styles";
 import PranavSaraf from "../../assets/profile_pic.png";
-import wordpress from "../../assets/wordpress.svg";
-import shopify from "../../assets/shopify.svg";
 import htmlIcon from "../../assets/html-icon.svg";
 import cssIcon from "../../assets/css-icon.svg";
 import jsIcon from "../../assets/js-icon.svg";
 import nodeIcon from "../../assets/node-icon.svg";
 import reactIcon from "../../assets/react-icon.svg";
-import typescriptIcon from "../../assets/typescript-icon.svg";
-import vueIcon from "../../assets/vue-icon.svg";
-import boostrapIcon from "../../assets/bootstrap-icon.svg";
+import Golang from "../../assets/Screenshot 2025-01-19 185733.png";
+import Gin from "../../assets/Gin.png"
+import Java from "../../assets/Java.png"
+import Docker from "../../assets/Docker.png";
+import Postman from "../../assets/Postman.png";
 import ScrollAnimation from "react-animate-on-scroll";
 
 export function About() {
@@ -21,29 +21,43 @@ export function About() {
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.1 * 1000}>
           <p>
-            Hi there! I'm Pranav, a Software Developer with a expertise in both frontend and backend development.
+          I'm Pranav, a Software Developer passionate about building scalable and efficient solutions. With hands-on experience in both frontend and backend development, I specialize in creating robust applications using technologies like Golang, Gin, Docker, Java, React, AWS Lambda etc.
           </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.2 * 1000} style={{ marginTop: "2rem", marginBottom: "2rem" }}>
           <p>
-            But my services go beyond just custom development - I'm also proficient in using CMS systems like WordPress and Shopify, making it easy for my clients to take control of their own websites and keep them up to date.</p>
+          </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.3 * 1000}>
           <p>
-            So if you're in need of a new website or just looking to revamp your current online presence, I'd love to chat and see how I can help. Let's bring your website dreams to reality together!</p>
+          I'm passionate about creating efficient, scalable applications and have experience building APIs, optimizing backend systems, and designing user-friendly interfaces.</p>
+        </ScrollAnimation>
+        <ScrollAnimation animateIn="fadeInLeft" delay={0.2 * 1000} style={{ marginTop: "2rem", marginBottom: "2rem" }}>
+          <p>
+          </p>
+        </ScrollAnimation>
+        <ScrollAnimation animateIn="fadeInLeft" delay={0.3 * 1000}>
+          <p>
+          At present, I've developed my skills in Golang, working on real-time data processing, serverless API development, My work spans distributed systems, SQL queries, and seamless integration of frontend and backend.</p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.4 * 1000}>
           <h3>Here are my main skills:</h3>
         </ScrollAnimation>
         <div className="hard-skills">
           <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.10 * 1000}>
-              <img src={wordpress} alt="Wordpress" />
+            <ScrollAnimation animateIn="fadeInUp" delay={0.19 * 1000}>
+              <img src={Golang} alt="golang" />
             </ScrollAnimation>
           </div>
           <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.12 * 1000}>
-              <img src={shopify} alt="shopify" />
+            <ScrollAnimation animateIn="fadeInUp" delay={0.19 * 1000}>
+              <img src={Gin} alt="golang" />
+
+            </ScrollAnimation>
+          </div>
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.19 * 1000}>
+              <img src={Docker} alt="docker" />
             </ScrollAnimation>
           </div>
           <div className="hability">
@@ -52,13 +66,13 @@ export function About() {
             </ScrollAnimation>
           </div>
           <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.14 * 1000}>
-              <img src={typescriptIcon} alt="Typescript" />
+            <ScrollAnimation animateIn="fadeInUp" delay={0.19 * 1000}>
+              <img src={Java} alt="java" />
             </ScrollAnimation>
           </div>
           <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.15 * 1000}>
-              <img src={vueIcon} alt="Vue" />
+            <ScrollAnimation animateIn="fadeInUp" delay={0.19 * 1000}>
+              <img src={Postman} alt="postman" />
             </ScrollAnimation>
           </div>
           <div className="hability">
@@ -78,11 +92,6 @@ export function About() {
           </div>
           <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.19 * 1000}>
-              <img src={boostrapIcon} alt="bootstrap" />
-            </ScrollAnimation>
-          </div>
-          <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.19 * 1000}>
               <img src={jsIcon} alt="JavaScript" />
             </ScrollAnimation>
           </div>
@@ -90,7 +99,7 @@ export function About() {
       </div>
       <div className="about-image">
         <ScrollAnimation animateIn="fadeInRight" delay={0.20 * 1000}>
-          <img src={PranavSaraf} alt="Vinayak Singh" />
+          <img src={PranavSaraf} alt="Pranav Saraf" />
         </ScrollAnimation>
       </div>
     </Container>
