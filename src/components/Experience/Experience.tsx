@@ -22,7 +22,7 @@ export function Experience() {
             RING, India's leading fintech launched in 2022 by OnEMi Technology Solutions, specializes in data-driven lending with over 11 million customers. At RING, I gained expertise in Golang development, API creation, serverless API development, and AWS Lambda coding. I contributed to cross-pod discussions, team building, and efficient project delivery using tools like Jira, Bitbucket, and Postman, while thriving in a collaborative work environment.
             </p>
           </div>
-          <footer> <ul className="tech-list"> <li>Golang</li><li>Docker</li><li>React</li><li>Gin</li><li>lambda</li><li>php (laravel)</li> </ul> </footer>
+          <footer> <ul className="tech-list"> <li>Golang</li><li>Docker</li><li>React</li><li>Gin</li><li>lambda</li><li>php</li> </ul> </footer>
         </div>
       </ScrollAnimation>
       
