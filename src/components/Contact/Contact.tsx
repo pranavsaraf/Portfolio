@@ -1,7 +1,6 @@
 import { Container } from "./styles";
 import emailIcon from "../../assets/email-icon.svg";
 import phoneIcon from "../../assets/phone-icon.svg"
-import { Form } from "../Form/Form";
 
 
 export function Contact(){
@@ -21,7 +20,6 @@ export function Contact(){
           <a href="tel:+919970706869">(+91) 9970706869</a>
         </div>  
       </div>
-      <Form></Form>
     </Container>
   )
 }
