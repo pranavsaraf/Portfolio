@@ -1,7 +1,7 @@
 import { Container } from "./styles";
 import PranavSaraf from "../../assets/profile_pic.png";
 import htmlIcon from "../../assets/html-icon.svg";
-import cssIcon from "../../assets/css-icon.svg";
+import kafkaIcon from "../../assets/icons8-apache-kafka.svg";
 import jsIcon from "../../assets/js-icon.svg";
 import nodeIcon from "../../assets/node-icon.svg";
 import reactIcon from "../../assets/react-icon.svg";
@@ -61,6 +61,11 @@ export function About() {
             </ScrollAnimation>
           </div>
           <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.18 * 500}>
+              <img src={kafkaIcon} alt="Kafka" />
+            </ScrollAnimation>
+          </div>
+          <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.13 * 500}>
               <img src={reactIcon} alt="React" />
             </ScrollAnimation>
@@ -83,11 +88,6 @@ export function About() {
           <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.17 * 500}>
               <img src={htmlIcon} alt="Html" />
-            </ScrollAnimation>
-          </div>
-          <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.18 * 500}>
-              <img src={cssIcon} alt="Css" />
             </ScrollAnimation>
           </div>
           <div className="hability">
