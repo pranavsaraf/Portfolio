@@ -241,8 +241,8 @@ export function Main() {
       />
       <Hero></Hero>
       <About></About>
-      <Project></Project>
       <Experience></Experience>
+      <Project></Project>
       <Contact></Contact>
     </Container>
   );

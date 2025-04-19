@@ -76,6 +76,21 @@ export const Container = styled.section`
       }
 
     }
+      button {
+  margin-top: 12px;
+  padding: 8px 16px;
+  background-color:rgb(14, 13, 13);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
   }
 
   @media (max-width: 960px){

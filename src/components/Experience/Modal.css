@@ -1,0 +1,144 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.1); /* Reduced opacity for more transparency */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    padding: 2.5rem 2rem; /* Slightly increased padding */
+    background-color: rgba(43, 43, 43, 1); /* Solid background color */
+    opacity: 0.9; /* Makes the entire modal slightly transparent */
+    border-radius: 1.2rem;
+    width: 95%; /* Increased width for larger size */
+    max-width: 1000px; /* Increased max-width for larger screens */
+    color: #FFF;
+    position: relative;
+    transition: 0.25s;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3); /* Add some shadow for depth */
+}
+
+.modal-content:hover {
+    transform: translateY(-5px);
+    background-color: var(--pink); /* Adjust the hover color if you prefer */
+}
+
+.modal-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 2rem;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.modal-close:hover {
+    color: var(--green); /* Hover effect for close button */
+}
+
+h3 {
+    margin-bottom: 2rem;
+}
+
+h4 {
+    margin-bottom: 1rem;
+    color: var(--blue);
+}
+
+p {
+    letter-spacing: 0.12rem;
+    margin-bottom: 2rem;
+}
+
+footer {
+    margin-top: auto;
+}
+
+ul.tech-list {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    font-size: 1.4rem;
+    opacity: 0.6;
+}
+
+.footer-container {
+    margin-top: 2rem; /* Adds space above the footer */
+    text-align: center; /* Centers the footer content */
+  }
+  
+  footer {
+    padding: 1rem 0; /* Adds padding inside the footer */
+    background-color: #2b2b2b; /* Matches the modal background */
+    border-radius: 0.8rem; /* Adds rounded corners */
+  }
+  
+  .tech-list {
+    display: flex;
+    justify-content: center; /* Centers the list items */
+    gap: 1.5rem; /* Adds space between list items */
+    list-style: none; /* Removes default list styling */
+    padding: 0;
+    margin: 0;
+    font-size: 1.2rem; /* Adjusts font size */
+    color: #fff; /* Sets text color */
+    opacity: 0.8; /* Slightly reduces opacity for a subtle effect */
+  }
+  
+  .tech-list li {
+    transition: color 0.3s ease, transform 0.3s ease; /* Adds hover effects */
+  }
+  
+  .tech-list li:hover {
+    color: var(--pink); /* Changes color on hover */
+    transform: scale(1.1); /* Slightly enlarges the item on hover */
+  }
+
+  ul {
+    list-style: none; /* Removes the default bullet points */
+    padding-left: 1.6rem; /* Adds padding to align the points properly */
+    margin-bottom: 1.4rem; /* Adds spacing below the list */
+    color: #fff; /* Sets the text color */
+    font-size: 1.4rem; /* Adjusts the font size for readability */
+    line-height: 1.8; /* Increases line height for better spacing between points */
+}
+
+ul li {
+    margin-bottom: 0.3rem; /* Reduced spacing between each list item */
+    padding: 0.3rem 0.8rem; /* Reduced padding inside each list item */
+    position: relative; /* Makes the pseudo-element position relative to the list item */
+    transition: color 0.3s ease, transform 0.3s ease; /* Adds smooth hover effects */
+}
+
+ul li::before {
+    content: '•'; /* Adds a dot as the indicator */
+    color: var(--pink); /* Sets the color of the dot */
+    font-size: 1.4rem; /* Matches the font size of the text */
+    position: absolute; /* Positions the dot relative to the list item */
+    left: -1.5rem; /* Adjusts the position of the dot */
+    top: 0.1rem; /* Aligns the dot vertically with the text */
+}
+
+ul li:hover {
+    color: #000; /* Changes the font color to black on hover */
+    transform: translateX(5px); /* Slightly moves the item to the right on hover */
+}
+
+ul li:hover::before {
+    color: var(--green); /* Changes the dot color on hover */
+}
+/* Responsive Design */
+@media (max-width: 768px) {
+    .modal-content {
+        width: 95%; /* Adjust width for smaller screens */
+        padding: 2rem 1.5rem; /* Adjust padding for smaller screens */
+    }
+}

@@ -21,7 +21,7 @@ export function About() {
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.1 * 500}>
           <p>
-          I'm Pranav, a Software Developer passionate about building scalable and efficient solutions. With hands-on experience in both frontend and backend development, I specialize in creating robust applications using technologies like Golang, Gin, Docker, Java, React, AWS Lambda etc.
+          I'm Pranav, a Software Developer passionate about building scalable and efficient solutions. With hands-on experience in both frontend and backend development, I specialize in creating robust applications using technologies like Golang, Gin, Docker,Kafka, Java, React, AWS Lambda etc.
           </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.1 * 500} style={{ marginTop: "2rem", marginBottom: "2rem" }}>
