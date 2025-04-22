@@ -49,14 +49,13 @@ export function Experience() {
         return (
           <>
             <h3>PayWithRing : Software Developer Intern</h3>
-            <p>
-              RING, India's leading fintech launched in 2022 by OnEMi Technology Solutions,
-              specializes in data-driven lending with over 11 million customers. At RING, I gained
-              expertise in Golang development, API creation, serverless API development, and AWS
-              Lambda coding. I contributed to cross-pod discussions, team building, and efficient
-              project delivery using tools like Jira, Bitbucket, and Postman, while thriving in a
-              collaborative work environment.
-            </p>
+            <ul>
+            <li> API Development: Led the creation of multiple APIs, each catering to distinct functionalities, optimizing performance and ensuring seamless user experiences.</li>
+            <li> Event Tracking Enhancement: Led a pivotal role in a project that involved streamlining data posting and updates to Mixpanel, an external service, using their API. This initiative significantly elevated our analytical capabilities, allowing for in-depth tracking and analysis of user interactions and behaviors, ultimately contributing to data-driven decision-making within the organization.</li>
+            <li> Real-time Data Processing: Designed and implemented a fundamental Kafka Consumer, enabling the retrieval of real-time data from various API endpoints, empowering the team with up-to-the-minute insights.</li>
+            <li> Frontend Development: Took charge of frontend development for the Admin Panel using React, contributing to the refinement and expansion of diverse features, resulting in a more user-friendly and efficient interface.</li>
+            <li> Database Management: Proficiently crafted SQL queries to meet the diverse functional requirements of the team, ensuring seamless data management and retrieval.</li>
+            </ul>
             <footer>
               <div>
                 <ul className="tech-list">
@@ -74,13 +73,12 @@ export function Experience() {
         return (
           <>
             <h3>Tag8 : Full Stack Dev Intern</h3>
-            <p>
-              I designed and developed RESTful APIs, implemented secure authentication and data
-              validation, handled file uploads and data conversion, and optimized database schemas
-              for efficient retrieval. I also ensured data integrity, improved system performance,
-              and collaborated with the team to deliver a seamless and secure web application on
-              time.
-            </p>
+            <ul>
+            <li> RESTful API Development: Led the design and development of RESTful APIs, facilitating seamless communication between the frontend and backend components of the application, resulting in enhanced user experiences.</li>
+            <li> Security and Authentication: Implemented robust user data validation and authentication mechanisms, ensuring secure access to the website, safeguarding user data and privacy.</li>
+            <li> File Handling Expertise: Demonstrated proficiency in handling file uploads and converting CSV to JSON and vice-versa, all while maintaining data integrity, streamlining data management processes.</li>
+            <li> Database Optimization: Acquired valuable insights into database schema design and optimization techniques, significantly enhancing data retrieval efficiency and application performance.</li>
+            </ul>
             <footer>
               <ul className="tech-list">
                 <li>Node</li>
