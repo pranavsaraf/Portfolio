@@ -114,7 +114,7 @@ export function Experience() {
 
   return (
     <Container id="experience">
-      <h2>My Experience</h2>
+      <h2>Click here for my Experience</h2>
       <div className="experiences">
         <ScrollAnimation animateIn="flipInX">
           <div className="project">
@@ -129,7 +129,7 @@ export function Experience() {
                 project delivery using tools like Jira, Bitbucket, and Postman, while thriving in a
                 collaborative work environment.
               </p>
-              <button onClick={() => handleCardClick('paywithring-kissht')}>My Experience</button>
+              <button onClick={() => handleCardClick('paywithring-kissht')}>Click here for my Experience</button>
             </div>
           </div>
         </ScrollAnimation>
@@ -147,7 +147,7 @@ export function Experience() {
                 project delivery using tools like Jira, Bitbucket, and Postman, while thriving in a
                 collaborative work environment.
               </p>
-              <button onClick={() => handleCardClick('paywithring-intern')}>My Experience</button>
+              <button onClick={() => handleCardClick('paywithring-intern')}>Click here for my Experience</button>
             </div>
           </div>
         </ScrollAnimation>
@@ -160,7 +160,7 @@ export function Experience() {
               <p>
                 I designed and developed RESTful APIs, implemented secure authentication and data validation, handled file uploads and data conversion, and optimized database schemas for efficient retrieval. I also ensured data integrity, improved system performance, and collaborated with the team to deliver a seamless and secure web application on time.
               </p>
-              <button onClick={() => handleCardClick('tag8')}>My Experience</button>
+              <button onClick={() => handleCardClick('tag8')}>Click here for my Experience</button>
             </div>
           </div>
         </ScrollAnimation>
@@ -171,7 +171,7 @@ export function Experience() {
               <h3>DJSCE IETE-ISF</h3>
               <h3>Senior Strike Organiser</h3>
               <p>The Institution of Electronics and Telecommunication Engineers (IETE) is India’s leading recognised professional society devoted to the advancement of science and technology of Electronics, Telecommunication and IT. We, the students of Electronics and Telecommunication Engineering (EXTC) at D.J. Sanghvi are a student forum of IETE who are responsible for improving the standard of engineering education within our college.</p>
-              <button onClick={() => handleCardClick('djsce-iete')}>My Experience</button>
+              <button onClick={() => handleCardClick('djsce-iete')}>Click here for my Experience</button>
             </div>
           </div>
         </ScrollAnimation>
