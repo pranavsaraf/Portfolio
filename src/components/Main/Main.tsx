@@ -13,6 +13,8 @@ import nodeIcon from "../../assets/node-icon.svg";
 import reactIcon from "../../assets/react-icon.svg";
 import vueIcon from "../../assets/vue-icon.svg";
 import boostrapIcon from "../../assets/bootstrap-icon.svg";
+import { Education } from "../Education/Education";
+
 
 export function Main() {
   return (
@@ -241,6 +243,7 @@ export function Main() {
       />
       <Hero></Hero>
       <About></About>
+      <Education></Education>
       <Experience></Experience>
       <Project></Project>
       <Contact></Contact>
