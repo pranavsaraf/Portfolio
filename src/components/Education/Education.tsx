@@ -34,7 +34,7 @@ export function Education() {
         </ScrollAnimation>
 
         <ScrollAnimation animateIn="flipInX">
-          <div className="education">
+          <div className="project">
             <div className="body">
               <h4>SSC</h4>
               <h4>Mount Carmel Secondary and higher Secondary School, Akola</h4>
