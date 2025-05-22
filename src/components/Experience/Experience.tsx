@@ -114,7 +114,7 @@ export function Experience() {
 
   return (
     <Container id="experience">
-      <h2>My Experience</h2>
+      <h2>My Experiences</h2>
       <div className="experiences">
         <ScrollAnimation animateIn="flipInX">
           <div className="project">

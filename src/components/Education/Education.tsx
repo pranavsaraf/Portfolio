@@ -1,7 +1,7 @@
+import { useState } from "react";
 import { Container } from "./styles";
 // import DownloadApp from '../../assets/download.webp'
 import ScrollAnimation from "react-animate-on-scroll";
-
 
 export function Education() {
   return (
@@ -34,7 +34,7 @@ export function Education() {
         </ScrollAnimation>
 
         <ScrollAnimation animateIn="flipInX">
-          <div className="project">
+          <div className="education">
             <div className="body">
               <h4>SSC</h4>
               <h4>Mount Carmel Secondary and higher Secondary School, Akola</h4>
@@ -43,7 +43,6 @@ export function Education() {
             <footer> <ul className="tech-list"> <li>Percentage: 95.20% </li> </ul> </footer>
           </div>
         </ScrollAnimation>
-
       </div>
     </Container>
     </>
